@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px)
+{
+    h1{
+        color: aqua;
+    }
+    .box9
+    {
+        display:flex;
+        margin:90px;
+    }
+}
+.box
+{
+    width:30px;
+    border:15px solid green;
+    padding:50px;
+    margin:20px;
+    transition-property: width ;
+    transition-duration:2s ;
+}
+.box:hover{
+width:200px;
+height:20px;
+color:blanchedalmond
+}
